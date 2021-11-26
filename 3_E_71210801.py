@@ -29,9 +29,9 @@ def cek_kata():
         print(kata,cek)
 
 def ubah_kata():
-    kata= input("Masukan sebuah kalimat/kata : ")
-    ubah= input("Masukan kata yang ingin di ubah : ")
-    ganti= input("Masukan kata pengganti :")
+    kata= str(input("Masukan sebuah kalimat/kata : "))
+    ubah= str(input("Masukan kata yang ingin di ubah : "))
+    ganti= str(input("Masukan kata pengganti :"))
     print("Anda akan mengubah kata",ubah,"Menjadi",ganti,"Sebanyak 1x")
     cek2= input("Apakah anda ingin mengubah jumlah total penggantian kata ? (yes/no) : ")
     if cek2=="no":
